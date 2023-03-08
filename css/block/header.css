@@ -1,0 +1,10 @@
+.header {
+	width: 100%;
+}
+
+.header__wrap {
+	display: flex;
+	gap: 65px;
+	max-width: 1340px;
+	width: 100%;
+}

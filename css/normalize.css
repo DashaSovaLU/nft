@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	outline-offset: 4px;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+input:not([type="checkbox"]):not([type="radio"]),
+textarea,
+select,
+button {
+	appearance: none;
+}
+
+button {
+	display: inline-flex;
+	align-items: center;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img,
+svg {
+	display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}

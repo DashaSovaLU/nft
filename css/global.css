@@ -1,0 +1,29 @@
+body {
+	background: #24252d;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Mulish", sans-serif;
+}
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(90deg, #0acffe 0%, #495aff 100%);
+	border-radius: 40px;
+	padding: 7px 30px;
+	text-decoration: none;
+	font-family: "Mulish", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 186%S;
+	color: #ffffff;
+}
+
+.btn._ghost {
+	color: #00c2ff;
+	background: transparent;
+	border: 1px solid #00c2ff;
+}
