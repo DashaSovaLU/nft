@@ -1,0 +1,58 @@
+.block__nft {
+	display: flex;
+	align-items: center;
+	gap: 190px;
+	padding-top: 60px;
+	max-width: 931px;
+	width: 100%;
+}
+
+.clic {
+	display: flex;
+	flex-direction: column;
+	max-width: 412px;
+	width: 100%;
+	padding: 84px 0;
+}
+.nft__title {
+	display: inline-block;
+	padding-bottom: 23px;
+}
+
+.colortext {
+	color: #495aff;
+}
+.alfa__title {
+	font-family: "Mulish", sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+	color: #ffffff;
+}
+
+.nft__dubl {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	max-width: 329px;
+	width: 100%;
+	padding-bottom: 52px;
+}
+
+.long__link {
+	display: flex;
+	align-items: center;
+	padding-bottom: 84px;
+	max-width: 306px;
+	width: 100%;
+}
+
+.nft__ll {
+	font-family: "Mulish", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #00c2ff;
+	text-decoration: none;
+}
