@@ -68,8 +68,11 @@
 	height: 15px;
 	right: 2px;
 	bottom: 0;
-	background: linear-gradient(90deg, #0acffe 0%, #495aff 100%);
 	border-radius: 15px;
+	background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.79755 6.80378C2.69704 6.80378 2.59654 6.76532 2.51997 6.68876L0.115172 4.28388C-0.0383905 4.13039 -0.0383905 3.88222 0.115172 3.72873C0.268662 3.57524 0.516763 3.57524 0.670325 3.72873L2.79755 5.85595L7.32972 1.32386C7.48321 1.17037 7.73131 1.17037 7.88487 1.32386C8.03836 1.47742 8.03836 1.72552 7.88487 1.87908L3.0752 6.68876C2.99863 6.76532 2.89806 6.80378 2.79755 6.80378Z' fill='white'/%3E%3C/svg%3E%0A"),
+		linear-gradient(90deg, #0acffe 0%, #495aff 100%);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .top__item__img {
