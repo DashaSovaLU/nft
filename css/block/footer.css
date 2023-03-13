@@ -1,0 +1,22 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid #4f4f4f;
+    bo
+	width: 100%;
+}
+
+.footer__wrap {
+	display: flex;
+	flex-direction: column;
+	max-width: 1123px;
+	gap: 64px;
+	margin-bottom: 40px;
+}
+
+.footer__user {
+	display: flex;
+	border-bottom: 1px solid #4f4f4f;
+	gap: 178px;
+	padding-top: 32px;
+}
