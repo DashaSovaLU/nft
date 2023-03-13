@@ -15,7 +15,14 @@
 
 .footer__user {
 	display: flex;
+	flex-wrap: wrap;
 	border-bottom: 1px solid #4f4f4f;
+	width: 100%;
+}
+
+.footer__user__wrap {
+	display: flex;
+
 	gap: 178px;
 	padding-top: 32px;
 }
