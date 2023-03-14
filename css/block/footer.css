@@ -8,7 +8,6 @@
 .footer__wrap {
 	display: flex;
 	flex-direction: column;
-	max-width: 1123px;
 	margin-bottom: 40px;
 }
 
@@ -36,6 +35,7 @@
 }
 
 .footer__search {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -46,4 +46,78 @@
 	border-radius: 20px;
 	border: none;
 	height: 40px;
+	width: 283px;
+}
+
+.footer__input::placeholder {
+	color: #ffffff;
+}
+.footer__search__btn {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.placeholder {
+	display: flex;
+	align-items: center;
+}
+
+.footer__nav {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	max-width: 141px;
+	width: 100%;
+}
+.footer__nav__title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	padding-bottom: 12px;
+}
+
+.footer__nav__item {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+}
+
+.footer__supp {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	max-width: 253px;
+	width: 100%;
+}
+.footer__supp__title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	padding-bottom: 12px;
+}
+.footer__supp__item {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+}
+
+.footer__icon {
+	display: flex;
+	gap: 713px;
+}
+.footer__icon__title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.footer__icon__icon {
+	display: flex;
+	gap: 20px;
 }
