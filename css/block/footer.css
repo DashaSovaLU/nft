@@ -1,19 +1,16 @@
 .footer {
 	display: flex;
-	justify-content: center;
-	border-top: 1px solid #4f4f4f;
-	width: 100%;
-}
-
-.footer__wrap {
-	display: flex;
 	flex-direction: column;
+	align-items: center;
 	margin-bottom: 40px;
+	width: 100%;
 }
 
 .footer__user {
 	display: flex;
+	justify-content: center;
 	border-bottom: 1px solid #4f4f4f;
+	border-top: 1px solid #4f4f4f;
 	width: 100%;
 	margin-bottom: 32px;
 	padding-top: 32px;
@@ -21,9 +18,10 @@
 
 .footer__user__wrap {
 	display: flex;
-	gap: 178px;
 	max-width: 1123px;
+	gap: 178px;
 	padding-bottom: 32px;
+	width: 100%;
 }
 
 .footer__mail {
@@ -37,25 +35,24 @@
 .footer__search {
 	position: relative;
 	display: flex;
-	flex-wrap: wrap;
 }
 
 .footer__input {
 	background: #1b1a21;
 	color: #fff;
-	border-radius: 20px;
+	border-radius: 20px 0 0 20px;
 	border: none;
 	height: 40px;
-	width: 283px;
+	width: 100%;
+	padding-left: 18px;
+	padding-right: 38px;
+	margin-right: -20px;
 }
 
 .footer__input::placeholder {
 	color: #ffffff;
 }
 .footer__search__btn {
-	position: absolute;
-	right: 0;
-	bottom: 0;
 }
 .placeholder {
 	display: flex;
