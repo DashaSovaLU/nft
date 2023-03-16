@@ -31,29 +31,40 @@
 	height: 230px;
 }
 
-.best__dubl__btn {
+.best__item__statist {
 	display: flex;
-	align-self: center;
-	min-width: 280px;
+	flex-direction: column;
+	margin-right: 4px;
 }
+.best__item__title {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.best__item__botline {
+	display: flex;
+}
+
+.best__item__text {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+}
+.sizetext {
+	font-weight: 400;
+}
+
 .best__item__number {
-	position: absolute;
-	right: 21px;
-	bottom: 21px;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 18px;
 }
 
-.best__item__title {
-	padding-top: 15px;
-	padding-bottom: 5px;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 21px;
-}
-.best__item__text {
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 18px;
+.best__dubl__btn {
+	display: flex;
+	align-self: center;
+	min-width: 280px;
 }
