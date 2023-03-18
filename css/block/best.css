@@ -52,15 +52,24 @@
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 18px;
+	margin-right: auto;
 }
 .sizetext {
 	font-weight: 400;
 }
-
-.best__item__number {
+.heart__like {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 18px;
+	color: #fff;
+	background-image: url("/img/best/heart.svg");
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 14px;
+}
+
+.heart__like._active {
+	background-image: url("/img/best/heart_active.svg");
 }
 
 .best__dubl__btn {

@@ -5,6 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
 		<link rel="stylesheet" href="./main.css" />
 	</head>
 	<body>
@@ -62,6 +66,38 @@
 				<img src="./img/nftblock/image.png" width="" height="" />
 				<div class="nft__img__back"></div>
 			</div>
+		</div>
+
+		<!-- Swiper -->
+		<style>
+			.mySwiper {
+				width: 500px;
+			}
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				color: black;
+				width: 100px;
+				height: 100px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		</style>
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">Slide 1</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+				<div class="swiper-slide">Slide 5</div>
+				<div class="swiper-slide">Slide 6</div>
+				<div class="swiper-slide">Slide 7</div>
+				<div class="swiper-slide">Slide 8</div>
+				<div class="swiper-slide">Slide 9</div>
+			</div>
+			<div class="swiper-pagination"></div>
 		</div>
 
 		<!-- top -->
@@ -162,10 +198,8 @@
 							<p class="best__item__text">
 								1.25 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like _active"><img src="img/best/heart (3).svg" ><button>
-								<div class="best__item__number">92</div>
-							</div>
+
+							<button class="heart__like _active">92</button>
 						</div>
 					</div>
 				</div>
@@ -183,10 +217,8 @@
 							<p class="best__item__text">
 								0.25 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like"></button>
-								<div class="best__item__number">19</div>
-							</div>
+
+							<button class="heart__like">19</button>
 						</div>
 					</div>
 				</div>
@@ -201,10 +233,8 @@
 							<p class="best__item__text">
 								1.25 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like"></button>
-								<div class="best__item__number">1192</div>
-							</div>
+
+							<button class="heart__like">1192</button>
 						</div>
 					</div>
 				</div>
@@ -222,10 +252,8 @@
 							<p class="best__item__text">
 								1.275 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like"></button>
-								<div class="best__item__number">112</div>
-							</div>
+
+							<button class="heart__like">112</button>
 						</div>
 					</div>
 				</div>
@@ -243,10 +271,8 @@
 							<p class="best__item__text">
 								3.25 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like _active"></button>
-								<div class="best__item__number">181</div>
-							</div>
+
+							<button class="heart__like _active">181</button>
 						</div>
 					</div>
 				</div>
@@ -264,10 +290,8 @@
 							<p class="best__item__text">
 								0.1 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like"></button>
-								<div class="best__item__number">2312</div>
-							</div>
+
+							<button class="heart__like">2312</button>
 						</div>
 					</div>
 				</div>
@@ -285,10 +309,8 @@
 							<p class="best__item__text">
 								3.5 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like"></button>
-								<div class="best__item__number">1191</div>
-							</div>
+
+							<button class="heart__like">1191</button>
 						</div>
 					</div>
 				</div>
@@ -303,10 +325,8 @@
 							<p class="best__item__text">
 								0.27 <span class="sizetext"> ETH </span>
 							</p>
-							<div class="best__item__heart">
-								<button class="heart__like"></button>
-								<button class="best__item__number">110</button>
-							</div>
+
+							<button class="heart__like">110</button>
 						</div>
 					</div>
 				</div>
@@ -388,5 +408,9 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<script src="./main.js"></script>
 	</body>
 </html>
