@@ -52,7 +52,7 @@ const prostoVagina = (chislo) => {
 };
 // console.log(prostoVagina(12));
 
-// переменна, которую можно  переопределять
+// переменная, которую можно  переопределять
 let prima = "pkok";
 // console.log(prima);
 prima = 48;

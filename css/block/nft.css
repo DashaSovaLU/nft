@@ -88,3 +88,31 @@
 	top: -20px;
 	left: 20px;
 }
+.nft__blur {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	padding: 8px 20px;
+	left: 0;
+	bottom: 0;
+	z-index: 3;
+	gap: 10px;
+	background: rgba(0, 194, 255, 0.1);
+	backdrop-filter: blur(7.5px);
+}
+
+.nft__blur__title {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	font-feature-settings: "salt" on, "liga" off;
+	color: #ffffff;
+}
+.nft__blur__text > p {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 15px;
+	font-feature-settings: "salt" on, "liga" off;
+	color: #24252d;
+}
