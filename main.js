@@ -30,6 +30,12 @@ for (const btn of heartLikeList) {
 	});
 }
 
+const btnburgerEl = document.querySelector("[data-burger]");
+
+btnburgerEl.addEventListener("click", () => {
+	btnburgerEl.classList.toggle("_active");
+});
+
 // значения по умолчанию(старославянский)
 function likeHuike(number, humber = 10) {
 	const result = humber + number;
