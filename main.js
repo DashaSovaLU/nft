@@ -31,9 +31,11 @@ for (const btn of heartLikeList) {
 }
 
 const btnburgerEl = document.querySelector("[data-burger]");
+const headMenu = document.querySelector("[data-menu]");
 
 btnburgerEl.addEventListener("click", () => {
 	btnburgerEl.classList.toggle("_active");
+	headMenu.classList.toggle("_active");
 });
 
 // значения по умолчанию(старославянский)
