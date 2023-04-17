@@ -18,9 +18,10 @@
 
 .footer__user__wrap {
 	display: flex;
-	max-width: 1123px;
+
 	gap: 178px;
 	padding-bottom: 32px;
+	padding: 0 20px;
 	width: 100%;
 }
 
@@ -117,4 +118,19 @@
 .footer__icon__icon {
 	display: flex;
 	gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+	.footer__user__wrap {
+		padding: 0 20px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.footer__icon {
+		display: block;
+		padding: 0 20px;
+	}
+	.footer__icon__title {
+		margin-bottom: 30px;
+	}
 }

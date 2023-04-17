@@ -115,3 +115,9 @@
 .top__arrow._left {
 	left: -15px;
 }
+
+@media screen and (max-width: 1160px) {
+	.block__top {
+		padding: 0 20px;
+	}
+}
