@@ -13,7 +13,7 @@
 	border-top: 1px solid #4f4f4f;
 	width: 100%;
 	margin-bottom: 32px;
-	padding: 32px 20px;
+	padding: 32px 12px;
 }
 
 .footer__user__wrap {
@@ -64,8 +64,6 @@
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
-	max-width: 141px;
-	width: 100%;
 }
 .footer__nav__title {
 	font-weight: 600;
@@ -87,7 +85,7 @@
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding: 0 20px;
+	padding: 0 12px;
 }
 
 .footer_icon_wrap {

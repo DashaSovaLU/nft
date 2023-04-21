@@ -1,7 +1,15 @@
 .block__nft {
 	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 0 12px;
+}
+
+.block__nft__wrap {
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	gap: 190px;
+	gap: 20px;
 	padding-top: 60px;
 	max-width: 931px;
 	width: 100%;
@@ -28,6 +36,9 @@
 	font-size: 28px;
 	line-height: 42px;
 	color: #ffffff;
+}
+.alfa__title.adaptiv {
+	display: none;
 }
 
 .nft__dubl {
@@ -115,4 +126,37 @@
 	line-height: 15px;
 	font-feature-settings: "salt" on, "liga" off;
 	color: #24252d;
+}
+
+@media screen and (max-width: 768px) {
+	.alfa__title {
+		display: none;
+	}
+	.alfa__title.adaptiv {
+		display: block;
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 50px;
+	}
+	.long__link {
+		display: none;
+	}
+	.block__nft__wrap {
+		flex-direction: column;
+	}
+	.nft__img {
+		order: 1;
+	}
+	.clic {
+		order: 2;
+		max-width: none;
+		padding: 0;
+		width: auto;
+	}
+	.nft__title {
+		display: none;
+	}
+	.nft__dubl__btn.btn {
+		padding: 5px 20px;
+	}
 }
