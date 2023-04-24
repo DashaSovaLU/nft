@@ -1,16 +1,34 @@
+// Swiper START \\
+
 let flylink = document.querySelector("#slider__top");
 
 const swiper = new Swiper(flylink, {
-	// Optional parameters
 	loop: false,
-	slidesPerView: "5",
-	spaceBetween: 22,
+	slidesPerView: "auto",
+	spaceBetween: 10,
 
 	navigation: {
 		nextEl: ".top__arrow._right",
 		prevEl: ".top__arrow._left",
 	},
+
+	breakpoints: {
+		800: {
+			slidesPerView: "5",
+			spaceBetween: 22,
+		},
+	},
 });
+
+swiper.slides.forEach((element, index) => {
+	const numberEl = element.querySelector("[data-number]");
+
+	numberEl.innerHTML = index + 1;
+});
+
+// Swiper END \\
+
+// Like START \\
 
 const heartLikeList = document.querySelectorAll("[data-btn-like]");
 
@@ -30,6 +48,10 @@ for (const btn of heartLikeList) {
 	});
 }
 
+// Like END \\
+
+// Burger START \\
+
 const btnburgerEl = document.querySelector("[data-burger]");
 const headMenu = document.querySelector("[data-menu]");
 
@@ -38,30 +60,4 @@ btnburgerEl.addEventListener("click", () => {
 	headMenu.classList.toggle("_active");
 });
 
-// значения по умолчанию(старославянский)
-function likeHuike(number, humber = 10) {
-	const result = humber + number;
-	console.log(result);
-}
-// likeHuike(5, 8);
-// likeHuike(7);
-
-// современный синтаксис
-const justHui = (number, humber = 10) => {
-	console.log(number + humber);
-};
-// justHui(25, 6);
-// justHui(6);
-
-// функция возвращает результат
-const prostoVagina = (chislo) => {
-	const result = chislo - 2;
-	return result;
-};
-// console.log(prostoVagina(12));
-
-// переменная, которую можно  переопределять
-let prima = "pkok";
-// console.log(prima);
-prima = 48;
-// console.log(prima);
+// Burger END \\

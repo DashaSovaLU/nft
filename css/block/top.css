@@ -116,8 +116,28 @@
 	left: -15px;
 }
 
-@media screen and (max-width: 1160px) {
-	.block__top {
-		padding: 0 20px;
+@media screen and (max-width: 900px) {
+	.alfa__title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.top__title {
+		padding-bottom: 20px;
+	}
+
+	.top__item__title {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.top__item__text {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.sizetext {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.top__item__section {
+		gap: 2px;
 	}
 }
