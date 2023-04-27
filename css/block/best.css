@@ -15,7 +15,7 @@
 .best__item {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
+	gap: 15px;
 	margin-bottom: 60px;
 }
 
@@ -76,4 +76,15 @@
 	display: flex;
 	align-self: center;
 	min-width: 280px;
+}
+
+@media screen and (max-width: 1100px) {
+	.best__item {
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.best__item {
+	}
 }
