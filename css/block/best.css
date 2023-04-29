@@ -81,10 +81,27 @@
 @media screen and (max-width: 1100px) {
 	.best__item {
 		justify-content: space-evenly;
+		align-items: center;
 	}
 }
 
 @media screen and (max-width: 550px) {
 	.best__item {
+		width: 100%;
+	}
+
+	.best__dubl__btn {
+		width: 165px;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	.best__item__section {
+		width: calc(50% - 15px);
+	}
+
+	.best__item__img {
+		width: 100%;
+		height: auto;
 	}
 }
