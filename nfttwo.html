@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./main.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__wrap">
+				<a href="/" class="header__logo">
+					<img src="./img/header/Logo.svg" width="125" height="42" />
+				</a>
+				<div class="header__item__wrap" data-menu>
+					<a href="#" class="header__item _active"> Магазин </a>
+					<a href="#" class="header__item"> Мои предметы </a>
+					<a href="#" class="header__item"> Подписки </a>
+					<a href="#" class="header__item"> Создать </a>
+				</div>
+				<label class="header__search">
+					<img
+						class="header__search__img"
+						src="./img/header/icon_Search.svg"
+					/>
+
+					<input
+						class="header__input"
+						type="search"
+						placeholder="Поиск предметов, коллекций и аккаунтов"
+					/>
+				</label>
+				<a class="header__btn btn _ghost" href="#">Войти</a>
+				<button class="header__burger" data-burger>
+					<div class="burger__line"></div>
+					<div class="burger__line"></div>
+					<div class="burger__line"></div>
+				</button>
+			</div>
+		</header>
+
+		<!-- avatar -->
+		<div class="block__avatar">
+			<div class="block__avatar__wrap">
+				<div class="avatar__img">
+					<img
+						src="./img/avatar/cdf04342fbb3282a194fefe6408c1f3d 1.png"
+						width="1340px"
+						height="308px"
+					/>
+				</div>
+
+				<div class="avatar__face">
+					<img
+						class="avatar__face__img"
+						src="./img/avatar/Group 43.png"
+					/>
+					<h3 class="top__item__title">ilyaKozakov</h3>
+
+					<div class="avatar__face__mug">
+						<img
+							class="face__mug"
+							src="./img/avatar/icon_Share.svg"
+						/>
+						<img
+							class="face__mug"
+							src="./img/avatar/icon_More.svg"
+						/>
+					</div>
+				</div>
+				<div class="avatar__nav">
+					<label class="avatar__search">
+						<img
+							class="avatar__search__img"
+							src="./img/header/icon_Search.svg"
+						/>
+
+						<input
+							class="avatar__input"
+							type="search"
+							placeholder="Поиск предметов и коллекций"
+						/>
+					</label>
+					<a class="avatar__btn btn _ghost" href="#">Недавние</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- best -->
+		<div class="block__best">
+			<div class="best__item">
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img class="best__item__img" src="./img/best/dog.png" />
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">Humane dog</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								1.25 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like _active"
+								data-btn-like="92"
+							></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img
+							class="best__item__img"
+							src="./img/best/kosmo.png"
+						/>
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">To be, or not be</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								0.25 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like"
+								data-btn-like="19"
+							></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img class="best__item__img" src="./img/best/eva.png" />
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">Before EVA</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								1.25 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like"
+								data-btn-like="1192"
+							></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img
+							class="best__item__img"
+							src="./img/best/space.png"
+						/>
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">Unbroken space</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								1.275 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like"
+								data-btn-like="112"
+							></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img
+							class="best__item__img"
+							src="./img/best/monalisa.png"
+						/>
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">Monas #4</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								3.25 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like _active"
+								data-btn-like="181"
+							></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img
+							class="best__item__img"
+							src="./img/best/pank.png"
+						/>
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">CryptoPank #1757</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								0.1 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like"
+								data-btn-like="2312"
+							></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img
+							class="best__item__img"
+							src="./img/best/crypto.png"
+						/>
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">Bloomin Crypto</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								3.5 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like"
+								data-btn-like="1191"
+							></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="best__item__section">
+					<div class="best__item__picture _active">
+						<img class="best__item__img" src="./img/best/god.png" />
+					</div>
+					<div class="best__item__statist">
+						<h3 class="best__item__title">GODS!?</h3>
+						<div class="best__item__botline">
+							<p class="best__item__text">
+								0.27 <span class="sizetext"> ETH </span>
+							</p>
+
+							<button
+								class="heart__like"
+								data-btn-like="110"
+							></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="best__dubl__btn btn _ghost" href="#">Cмотреть еще </a>
+		</div>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="footer__user">
+				<div class="footer__user__wrap">
+					<div class="footer__mail">
+						<a href="/" class="footer__logo">
+							<img
+								src="./img/header/Logo.svg"
+								width="125"
+								height="42"
+							/>
+						</a>
+						<h5 class="footer__mail__title">
+							Подпишитесь на рассылку
+						</h5>
+						<form class="footer__search">
+							<input
+								class="footer__input"
+								type="email"
+								placeholder="Ваш E-mail"
+								required
+							/>
+							<button
+								type="submit"
+								class="footer__search__btn btn"
+							>
+								Подписаться
+							</button>
+						</form>
+					</div>
+					<div class="footer__nav">
+						<h4 class="footer__nav__title">Навигация</h4>
+						<a href="#" class="footer__nav__item"> Магазин </a>
+						<a href="#" class="footer__nav__item">
+							Как это работает?
+						</a>
+						<a href="#" class="footer__nav__item"> Контакты </a>
+					</div>
+					<div class="footer__nav">
+						<h4 class="footer__nav__title">Поддержка</h4>
+						<a href="#" class="footer__nav__item"> Центр помощи </a>
+						<a href="#" class="footer__nav__item">
+							Условия обслуживания
+						</a>
+						<a href="#" class="footer__nav__item">Права</a>
+						<a href="#" class="footer__nav__item"
+							>Политика конфиденциальности</a
+						>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__icon">
+				<div class="footer_icon_wrap">
+					<h6 class="footer__icon__title">
+						CHOISI, Inc. All Rights Reserved
+					</h6>
+					<div class="footer__icon__icon">
+						<a href="#" class="footer__icon__icon__link">
+							<img src="./img/footer/Group_inst.svg" />
+						</a>
+						<a href="#" class="footer__icon__icon__link">
+							<img src="./img/footer/twitter (1).svg" />
+						</a>
+						<a href="#" class="footer__icon__icon__link">
+							<img src="./img/footer/telegram 1.svg" />
+						</a>
+						<a href="#" class="footer__icon__icon__link">
+							<img src="./img/footer/discord 1.svg" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<script src="./main.js"></script>
+	</body>
+</html>
