@@ -1,0 +1,79 @@
+.block__avatar {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 0 12px;
+}
+
+.block__avatar__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	max-width: 1340px;
+	width: 100%;
+}
+
+.avatar__img {
+	border-radius: 20px;
+}
+
+.avatar__face {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -110px;
+}
+.avatar__face__img {
+	padding-bottom: 10px;
+}
+
+.avatar__face__title {
+	font-size: 28px;
+	line-height: 42px;
+}
+
+.avatar__face__mug {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 80px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.avatar__nav {
+	display: flex;
+	align-items: center;
+	max-width: 725px;
+	width: 100%;
+	gap: 20px;
+}
+
+.avatar__search {
+	max-width: 765px;
+	min-width: 180px;
+	width: 100%;
+	height: 40px;
+	background: #1b1a21;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding-left: 15px;
+}
+
+.avatar__input {
+	background: #1b1a21;
+	color: #fff;
+	border-radius: 20px;
+	border: none;
+	height: 24px;
+	width: 100%;
+}
+
+.avatar__input::placeholder {
+	color: #4f4f4f;
+}
