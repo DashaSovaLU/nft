@@ -1,8 +1,9 @@
 .block__best {
 	display: flex;
 	flex-direction: column;
-	max-width: 996px;
+	max-width: 1020px;
 	width: 100%;
+	padding: 0 12px;
 	padding-bottom: 60px;
 }
 
@@ -15,7 +16,7 @@
 .best__item {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 15px;
+	gap: 14px;
 	margin-bottom: 60px;
 }
 
@@ -97,7 +98,7 @@
 
 @media screen and (max-width: 485px) {
 	.best__item__section {
-		width: calc(50% - 15px);
+		width: calc(50% - 7px);
 	}
 
 	.best__item__img {

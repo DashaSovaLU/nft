@@ -47,38 +47,40 @@
 		<!-- avatar -->
 		<div class="block__avatar">
 			<div class="block__avatar__wrap">
-				<div class="avatar__img">
-					<img
-						src="./img/avatar/cdf04342fbb3282a194fefe6408c1f3d 1.png"
-						width="1340px"
-						height="308px"
-					/>
-				</div>
+				<img
+					class="avatar__img"
+					src="./img/avatar/cdf04342fbb3282a194fefe6408c1f3d 1.png"
+					width="1340px"
+					height="308px"
+				/>
 
-				<!-- <div class="avatar__img__mobile">
-					<img
-						src="./img/avatar/image_mobile.png"
-						width="375px"
-						height="265px"
-					/>
-				</div> -->
+				<img
+					class="avatar__img__mobile"
+					src="./img/avatar/image_mobile.png"
+					width="375px"
+					height="265px"
+				/>
 
 				<div class="avatar__face">
 					<img
 						class="avatar__face__img"
-						src="./img/avatar/Group 43.png"
+						src="./img/avatar/image_face.png"
 					/>
 					<h3 class="avatar__face__title">ilyaKozakov</h3>
 
 					<div class="avatar__face__mug">
-						<img
-							class="face__mug"
-							src="./img/avatar/icon_Share.svg"
-						/>
-						<img
-							class="face__mug"
-							src="./img/avatar/icon_More.svg"
-						/>
+						<button>
+							<img
+								class="face__mug"
+								src="./img/avatar/icon_Share.svg"
+							/>
+						</button>
+						<button>
+							<img
+								class="face__mug"
+								src="./img/avatar/icon_More.svg"
+							/>
+						</button>
 					</div>
 				</div>
 				<div class="avatar__nav">
@@ -94,7 +96,24 @@
 							placeholder="Поиск предметов и коллекций"
 						/>
 					</label>
-					<a class="avatar__btn btn _ghost" href="#">Недавние</a>
+
+					<label class="avatar__arrow btn _ghost">
+						<select class="avatar__btn" name="filtr">
+							<option value="">Недавние</option>
+							<option value="data">Дата</option>
+							<option value="like">Лайки</option>
+							<option value="price">Цена</option>
+						</select>
+						<img
+							class="avatar__arrow__img"
+							src="./img/avatar/Arrow - Down 2.svg"
+						/>
+
+						<img
+							class="avatar__dudka__img"
+							src="./img/avatar/Vector_dudka.svg"
+						/>
+					</label>
 				</div>
 			</div>
 		</div>
