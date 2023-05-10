@@ -1,0 +1,25 @@
+.block__id {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 0 12px;
+}
+
+.id__wrap {
+	display: flex;
+
+	align-items: center;
+	gap: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	max-width: 1440px;
+	width: 100%;
+}
+
+.id__info {
+	display: flex;
+	flex-direction: column;
+
+	max-width: 420px;
+	width: 100%;
+}
