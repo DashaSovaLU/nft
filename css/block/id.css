@@ -7,19 +7,146 @@
 
 .id__wrap {
 	display: flex;
-
 	align-items: center;
 	gap: 20px;
+	max-width: 1340px;
+	width: 100%;
+}
+
+.id__img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 814px;
+	width: 100%;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	max-width: 1440px;
-	width: 100%;
 }
 
 .id__info {
 	display: flex;
 	flex-direction: column;
-
+	justify-content: center;
+	border-left: 1px solid #4f4f4f;
+	height: 100%;
+	max-height: 677px;
 	max-width: 420px;
 	width: 100%;
+	padding-left: 44px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.id__cards {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	gap: 5px;
+}
+.id__cards_name {
+	font-size: 28px;
+	line-height: 42px;
+}
+
+.id__cards__like {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 274px;
+	width: 100%;
+}
+
+.id__avtor {
+	display: flex;
+	flex-direction: column;
+	max-width: 146px;
+	width: 100%;
+	gap: 10px;
+	margin-bottom: 30px;
+}
+
+.id__avtor__title {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.id__face {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 146px;
+	width: 100%;
+}
+
+.id__face__title {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.id__content {
+	max-width: 420px;
+}
+
+.id__tabs__item {
+	display: flex;
+}
+
+.tabs__item {
+	flex: 0 1 33.333%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.tabs__body {
+	display: flex;
+}
+
+.tabs__block {
+	position: relative;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	display: none;
+}
+
+.tabs__block:target {
+	display: block;
+}
+
+.tabs__block:before {
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid #ffffff;
+	left: 0;
+	width: 33.333%;
+	padding: 0 12px;
+}
+
+.tabs__block:nth-child(2):before {
+	left: 33.333%;
+}
+
+.tabs__block:nth-child(3):before {
+	left: 66.666%;
+}
+
+.id__dubl {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 387px;
+	width: 100%;
+	gap: 20px;
+}
+
+.id__dubl__btn {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 26px;
+	padding: 5px 15px;
 }

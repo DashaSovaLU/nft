@@ -53,8 +53,7 @@
 .footer__input::placeholder {
 	color: #ffffff;
 }
-.footer__search__btn {
-}
+
 .placeholder {
 	display: flex;
 	align-items: center;
