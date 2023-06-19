@@ -1,25 +1,30 @@
-.header__ow {
+.buy__ow {
 	display: flex;
 	justify-content: center;
 	border-bottom: 1px solid #4f4f4f;
 	padding: 0 12px;
     width: 100%;
  max-width: 585px;
+
 }
 
-.header__ow__wrap {
+.buy__ow__wrap {
 	display: flex;
 align-items: center;
-
-	padding-bottom: 30px;
+padding-bottom: 30px;
 	padding-top: 30px;
 }
 
-.header__ow__title {
+.buy__ow__title {
     font-family: "Mulish", sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 36px;
 color: #ffffff;
+}
+
+.buy {
+	
+
 }
