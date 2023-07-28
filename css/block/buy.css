@@ -24,7 +24,12 @@ line-height: 36px;
 color: #ffffff;
 }
 
-.buy {
+.buy__chek {
+	display: flex;
+	flex-direction: column;
+	max-width: 505px;
+	width: 100%;
+	gap: 35px;
 	
 
 }

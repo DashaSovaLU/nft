@@ -1,222 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-		/>
-		<link rel="stylesheet" href="./main.css" />
-	</head>
-	<body>
-		<header class="header">
-			<div class="header__wrap">
-				<a href="/" class="header__logo">
-					<img src="./img/header/Logo.svg" width="125" height="42" />
-				</a>
-				<div class="header__item__wrap" data-menu>
-					<a href="#" class="header__item _active"> Магазин </a>
-					<a href="#" class="header__item"> Мои предметы </a>
-					<a href="#" class="header__item"> Подписки </a>
-					<a href="#" class="header__item"> Создать </a>
-				</div>
-				<label class="header__search">
-					<img
-						class="header__search__img"
-						src="./img/header/icon_Search.svg"
-					/>
 
-					<input
-						class="header__input"
-						type="search"
-						placeholder="Поиск предметов, коллекций и аккаунтов"
-					/>
-				</label>
-				<a class="header__btn btn _ghost" href="#">Войти</a>
-				<button class="header__burger" data-burger>
-					<div class="burger__line"></div>
-					<div class="burger__line"></div>
-					<div class="burger__line"></div>
-				</button>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Item</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__wrap">
+			<a href="/" class="header__logo">
+				<img src="./img/header/Logo.svg" width="125" height="42" />
+			</a>
+			<div class="header__item__wrap" data-menu>
+				<a href="#" class="header__item _active"> Магазин </a>
+				<a href="#" class="header__item"> Мои предметы </a>
+				<a href="#" class="header__item"> Подписки </a>
+				<a href="#" class="header__item"> Создать </a>
 			</div>
-		</header>
+			<label class="header__search">
+				<img class="header__search__img" src="./img/header/icon_Search.svg" />
 
-		<!-- id -->
-		<div class="block__id">
-			<div class="id__wrap">
-				<div class="id__img">
-					<img
-						src="./img/id/Image.png"
-						width="540px"
-						height="540px"
-					/>
-				</div>
+				<input class="header__input" type="search" placeholder="Поиск предметов, коллекций и аккаунтов" />
+			</label>
+			<a class="header__btn btn _ghost" href="#">Войти</a>
+			<button class="header__burger" data-burger>
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+			</button>
+		</div>
+	</header>
 
-				<div class="id__info">
-					<div class="id__info__wrap">
-						<div class="id__cards">
-							<div class="id__cards__like">
-								<h1 class="id__cards_name">GODS!?</h1>
-								<button
-									class="heart__like"
-									data-btn-like="110"
-								></button>
-							</div>
-							<p>
-								От <strong>0.27 ETH</strong> · 20 из 44
-								доступных
-							</p>
+	<!-- id -->
+	<div class="block__id">
+		<div class="id__wrap">
+			<div class="id__img">
+				<img src="./img/id/Image.png" width="540px" height="540px" />
+			</div>
+
+			<div class="id__info">
+				<div class="id__info__wrap">
+					<div class="id__cards">
+						<div class="id__cards__like">
+							<h1 class="id__cards_name">GODS!?</h1>
+							<button class="heart__like" data-btn-like="110"></button>
 						</div>
+						<p>
+							От <strong>0.27 ETH</strong> · 20 из 44
+							доступных
+						</p>
+					</div>
 
-						<div class="id__avtor">
-							<h4 class="id__avtor__title">Создатель</h4>
-							<div class="id__face">
-								<img
-									class="id__face__img"
-									src="./img/id/face.png"
-								/>
-								<h3 class="id__face__title">ilyaKozakov</h3>
-							</div>
+					<div class="id__avtor">
+						<h4 class="id__avtor__title">Создатель</h4>
+						<div class="id__face">
+							<img class="id__face__img" src="./img/id/face.png" />
+							<h3 class="id__face__title">ilyaKozakov</h3>
 						</div>
+					</div>
 
-						<div class="id__content">
-							<div class="id__tabs">
-								<nav class="id__tabs__item">
-									<a href="#tab_01" class="tabs__item">
-										Детали
-									</a>
+					<div class="id__content">
+						<div class="id__tabs">
+							<nav class="id__tabs__item">
+								<a href="#tab_01" class="tabs__item">
+									Детали
+								</a>
 
-									<a href="#tab_02" class="tabs__item">
-										Ставки
-									</a>
-									<a href="#tab_03" class="tabs__item">
-										История
-									</a>
-								</nav>
-								<div class="tabs__body">
-									<div id="tab_01" class="tabs__block">
-										Хромированные бюсты в пастельных тонах,
-										созданные пражским графическим
-										дизайнером Ондржеем Зункой, обыгрывают
-										идею о том, что продвинутый,
-										самосознательный ИИ, опирающийся
-										на данные социальных сетей, может стать
-										подобным Богу — способным создавать
-										новые миры.
-									</div>
-									<div id="tab_02" class="tabs__block">
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis
-										nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat.
-										Duis aute irure dolor in reprehenderit
-										in voluptate velit esse cillum dolore eu
-										fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in
-										culpa qui officia deserunt mollit anim
-										id est laborum
-									</div>
-									<div id="tab_03" class="tabs__block">
-										Sed ut perspiciatis unde omnis iste
-										natus error sit voluptatem accusantium
-										doloremque laudantium, totam rem
-										aperiam, eaque ipsa quae ab illo
-										inventore veritatis et quasi architecto
-										beatae vitae dicta sunt explicabo.
-									</div>
+								<a href="#tab_02" class="tabs__item">
+									Ставки
+								</a>
+								<a href="#tab_03" class="tabs__item">
+									История
+								</a>
+							</nav>
+							<div class="tabs__body">
+								<div id="tab_01" class="tabs__block">
+									Хромированные бюсты в пастельных тонах,
+									созданные пражским графическим
+									дизайнером Ондржеем Зункой, обыгрывают
+									идею о том, что продвинутый,
+									самосознательный ИИ, опирающийся
+									на данные социальных сетей, может стать
+									подобным Богу — способным создавать
+									новые миры.
+								</div>
+								<div id="tab_02" class="tabs__block">
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna
+									aliqua. Ut enim ad minim veniam, quis
+									nostrud exercitation ullamco laboris
+									nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit
+									in voluptate velit esse cillum dolore eu
+									fugiat nulla pariatur. Excepteur sint
+									occaecat cupidatat non proident, sunt in
+									culpa qui officia deserunt mollit anim
+									id est laborum
+								</div>
+								<div id="tab_03" class="tabs__block">
+									Sed ut perspiciatis unde omnis iste
+									natus error sit voluptatem accusantium
+									doloremque laudantium, totam rem
+									aperiam, eaque ipsa quae ab illo
+									inventore veritatis et quasi architecto
+									beatae vitae dicta sunt explicabo.
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="id__dubl">
-							<a class="id__dubl__btn btn" href="#"
-								>Купить за 0.27 ETH</a
-							>
+					<div class="id__dubl">
+						<a class="id__dubl__btn btn" href="#">Купить за 0.27 ETH</a>
 
-							<a class="id__dubl__btn btn _ghost" href="#"
-								>Сделать ставку</a
-							>
-						</div>
+						<a class="id__dubl__btn btn _ghost" href="#">Сделать ставку</a>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!-- footer -->
-		<footer class="footer">
-			<div class="footer__user">
-				<div class="footer__user__wrap">
-					<div class="footer__mail">
-						<a href="/" class="footer__logo">
-							<img
-								src="./img/header/Logo.svg"
-								width="125"
-								height="42"
-							/>
-						</a>
-						<h5 class="footer__mail__title">
-							Подпишитесь на рассылку
-						</h5>
-						<form class="footer__search">
-							<input
-								class="footer__input"
-								type="email"
-								placeholder="Ваш E-mail"
-								required
-							/>
-							<button
-								type="submit"
-								class="footer__search__btn btn"
-							>
-								Подписаться
-							</button>
-						</form>
-					</div>
-					<div class="footer__nav">
-						<h4 class="footer__nav__title">Навигация</h4>
-						<a href="#" class="footer__nav__item"> Магазин </a>
-						<a href="#" class="footer__nav__item">
-							Как это работает?
-						</a>
-						<a href="#" class="footer__nav__item"> Контакты </a>
-					</div>
-					<div class="footer__nav">
-						<h4 class="footer__nav__title">Поддержка</h4>
-						<a href="#" class="footer__nav__item"> Центр помощи </a>
-						<a href="#" class="footer__nav__item">
-							Условия обслуживания
-						</a>
-						<a href="#" class="footer__nav__item">Права</a>
-						<a href="#" class="footer__nav__item"
-							>Политика конфиденциальности</a
-						>
-					</div>
+	<!-- footer -->
+	<footer class="footer">
+		<div class="footer__user">
+			<div class="footer__user__wrap">
+				<div class="footer__mail">
+					<a href="/" class="footer__logo">
+						<img src="./img/header/Logo.svg" width="125" height="42" />
+					</a>
+					<h5 class="footer__mail__title">
+						Подпишитесь на рассылку
+					</h5>
+					<form class="footer__search">
+						<input class="footer__input" type="email" placeholder="Ваш E-mail" required />
+						<button type="submit" class="footer__search__btn btn">
+							Подписаться
+						</button>
+					</form>
+				</div>
+				<div class="footer__nav">
+					<h4 class="footer__nav__title">Навигация</h4>
+					<a href="#" class="footer__nav__item"> Магазин </a>
+					<a href="#" class="footer__nav__item">
+						Как это работает?
+					</a>
+					<a href="#" class="footer__nav__item"> Контакты </a>
+				</div>
+				<div class="footer__nav">
+					<h4 class="footer__nav__title">Поддержка</h4>
+					<a href="#" class="footer__nav__item"> Центр помощи </a>
+					<a href="#" class="footer__nav__item">
+						Условия обслуживания
+					</a>
+					<a href="#" class="footer__nav__item">Права</a>
+					<a href="#" class="footer__nav__item">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="pop-up _active">
+			<div class="buy__ow">
+				<div class="buy__ow__wrap">
+					<h1 class="buy__ow__title">Подтверждение заказа</h1>
 				</div>
 			</div>
 
-			<div class="pop-up _active">
-				<div class="buy__ow">
-					<div class="buy__ow__wrap">
-							 <h1 class="buy__ow__title">Подтверждение заказа</h1>
-						</div>
-				</div>
-				
-		 <!-- buy -->
-					<div class="buy">
-					<div class="buy__wrap">
+			<!-- buy -->
+			<div class="buy">
+				<div class="buy__wrap">
+
+					<div class="buy__chek">
 						<div class="buy__price">
 							<h2 class="buy__staff">Предметы</h2>
 							<h2 class="buy__point">Цена</h2>
 						</div>
-		
+
 						<div class="buy__sale">
 							<div class="buy__autor">
-		<img  class="buy__autor__img" src="./img/buy/Image.png" >
+								<img class="buy__autor__img" src="./img/buy/Image.png">
 								<div class="buy__autor__name">
 									<h3 class="autor__name">ilyaKozakov</h3>
 									<p class="staff__name">
@@ -224,63 +190,64 @@
 									</p>
 								</div>
 							</div>
-		
+
 							<div class="buy__point__staff">
 								<p class="point__staff">
 									0.27 <span class="sizetext"> ETH </span>
 								</p>
 							</div>
-		</div>
-		
-		<div class="end__buy__price">
-			<h2 class="end__price">Итого</h2>
-		<div class="end__buy__point">
-								<p class="point__staff">
-									0.27 <span class="sizetext"> ETH </span>
-								</p>
-							</div>
-		</div>
+						</div>
 					</div>
-				 </div>
-		
-				 <div class="footer__buy">
-					<div class="footer__buy__wrap">
-						<div class="nft__dubl">
-							<a class="nft__dubl__btn btn" href="#">Купить</a>
-		
-							<a class="nft__dubl__btn btn _ghost" href="#"
-								>Отмена</a>
-								
-						</div>
-						</div>
-					 </div>
-			</div>
 
-			<div class="footer__icon">
-				<div class="footer_icon_wrap">
-					<h6 class="footer__icon__title">
-						CHOISI, Inc. All Rights Reserved
-					</h6>
-					<div class="footer__icon__icon">
-						<a href="#" class="footer__icon__icon__link">
-							<img src="./img/footer/Group_inst.svg" />
-						</a>
-						<a href="#" class="footer__icon__icon__link">
-							<img src="./img/footer/twitter (1).svg" />
-						</a>
-						<a href="#" class="footer__icon__icon__link">
-							<img src="./img/footer/telegram 1.svg" />
-						</a>
-						<a href="#" class="footer__icon__icon__link">
-							<img src="./img/footer/discord 1.svg" />
-						</a>
+					<div class="end__buy__price">
+						<h2 class="end__price">Итого</h2>
+						<div class="end__buy__point">
+							<p class="point__staff">
+								0.27 <span class="sizetext"> ETH </span>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</footer>
+
+			<div class="footer__buy">
+				<div class="footer__buy__wrap">
+					<div class="nft__dubl">
+						<a class="nft__dubl__btn btn" href="#">Купить</a>
+
+						<a class="nft__dubl__btn btn _ghost" href="#">Отмена</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__icon">
+			<div class="footer_icon_wrap">
+				<h6 class="footer__icon__title">
+					CHOISI, Inc. All Rights Reserved
+				</h6>
+				<div class="footer__icon__icon">
+					<a href="#" class="footer__icon__icon__link">
+						<img src="./img/footer/Group_inst.svg" />
+					</a>
+					<a href="#" class="footer__icon__icon__link">
+						<img src="./img/footer/twitter (1).svg" />
+					</a>
+					<a href="#" class="footer__icon__icon__link">
+						<img src="./img/footer/telegram 1.svg" />
+					</a>
+					<a href="#" class="footer__icon__icon__link">
+						<img src="./img/footer/discord 1.svg" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 
-		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-		<script src="./main.js"></script>
-	</body>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+
 </html>
